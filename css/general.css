@@ -1,0 +1,66 @@
+body{
+	color: #7696ae;
+}
+h1{
+	color: #242625; font-family: Electrolize, Arial; margin-top:5px; margin-bottom:5px; 
+}
+h2{
+	color: #ffffff; font-family: Electrolize, Arial; margin-top:5px; margin-bottom:5px; 
+}
+h3{
+	margin-top:10px;
+}
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+#right-div{
+	 min-height: 100px; background: #92c0dd;
+	 border-radius: 10px;
+	 -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px; 
+}
+#right-div h2{
+	text-decoration: underline
+}
+.right-div-title{
+	 padding-bottom:10px; padding-top:20px;
+}
+.right-div-link{
+	 color:#000000; font-size:12px;
+}
+#left-div{
+	 min-height: 100px; background: rgba(82,208,208,0.5);
+}
+.electrolize{
+	font-family: Electrolize, Arial;
+}
+
+.overlay-div{
+	position:fixed; width:80%; height:80%; 	background-color: rgba(0,0,0,0.8); margin-top:5%; margin-left:10%; z-index:100; display:none;
+	 border-radius: 10px;
+	 -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px; 
+
+}
+
+.close_button{
+	width:80px; height:80px; 
+	z-index:200;
+	background-image: url('../images/close_button.png');  background-position:0px 0px; 
+}
+.close_button:hover{
+	background-position: 0px -80px;
+	cursor:pointer;
+}
+
+
+
+
+
+
+
